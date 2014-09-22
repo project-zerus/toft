@@ -9,10 +9,12 @@
 #include <string>
 #include <vector>
 
-#include "thirdparty/glog/logging.h"
-#include "thirdparty/google/protobuf/descriptor.h"
-#include "thirdparty/google/protobuf/message.h"
-#include "thirdparty/jsoncpp/json.h"
+#include "google/protobuf/descriptor.h"
+#include "google/protobuf/message.h"
+
+#include "glog/logging.h"
+#include "jsoncpp/json.h"
+
 #include "toft/base/string/number.h"
 
 namespace toft {

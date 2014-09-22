@@ -8,7 +8,8 @@
 
 #include <string>
 
-#include "thirdparty/protobuf/message.h"
+#include "google/protobuf/message.h"
+
 #include "toft/base/scoped_array.h"
 #include "toft/base/string/string_piece.h"
 #include "toft/storage/file/file.h"
