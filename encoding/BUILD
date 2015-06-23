@@ -9,7 +9,7 @@ cc_library(
     ],
     deps = [
         '//toft/base/string:string',
-        '//thirdparty/stringencoders:stringencoders'
+        '//stringencoders:stringencoders'
     ]
 )
 
