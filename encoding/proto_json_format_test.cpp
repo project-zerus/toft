@@ -8,9 +8,9 @@
 #include <limits>
 
 #include "thirdparty/glog/logging.h"
-#include "thirdparty/google/protobuf/text_format.h"
+#include "google/protobuf/text_format.h"
 #include "thirdparty/gtest/gtest.h"
-#include "thirdparty/jsoncpp/json.h"
+#include "json/json.h"
 #include "toft/encoding/proto_json_format_test.pb.h"
 #include "toft/storage/file/file.h"
 

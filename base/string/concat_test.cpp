@@ -10,7 +10,7 @@
 
 #include "thirdparty/gtest/gtest.h"
 #include "thirdparty/perftools/profiler.h"
-#include "thirdparty/protobuf/text_format.h"
+#include "google/protobuf/text_format.h"
 
 namespace toft {
 

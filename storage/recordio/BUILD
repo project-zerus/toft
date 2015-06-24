@@ -6,7 +6,7 @@ cc_library(
     ],
     deps = [
         '//toft/storage/file:file',
-        '//thirdparty/protobuf:protobuf'
+        '//protobuf:protobuf'
     ]
 )
 
