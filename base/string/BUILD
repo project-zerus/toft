@@ -46,7 +46,8 @@ cc_test(
     deps = [
         ':_concat',
         './format:_format',
-        '//thirdparty/perftools:profiler'
+        '//thirdparty/perftools:profiler',
+        '//protobuf:protobuf',
     ],
     optimize = 'O3'
 )
