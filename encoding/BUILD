@@ -9,7 +9,7 @@ cc_library(
     ],
     deps = [
         '//toft/base/string:string',
-        '//thirdparty/stringencoders:stringencoders'
+        '//stringencoders:stringencoders'
     ]
 )
 
@@ -48,8 +48,8 @@ cc_library(
     deps = [
         '//toft/base/string:string',
         '//thirdparty/glog:glog',
-        '//thirdparty/jsoncpp:jsoncpp',
-        '//thirdparty/protobuf:protobuf',
+        '//jsoncpp:jsoncpp',
+        '//protobuf:protobuf',
     ],
 )
 

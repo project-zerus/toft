@@ -18,7 +18,7 @@ cc_library(
     deps=[
         ':_block_compression',
         '//toft/base:class_registry',
-        '//thirdparty/snappy:snappy',
+        '//snappy:snappy',
     ],
     link_all_symbols=True,
 )

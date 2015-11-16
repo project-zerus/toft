@@ -32,7 +32,7 @@ cc_library(
     ],
     deps = [
         ':murmur',
-        '//thirdparty/stringencoders:stringencoders'
+        '//stringencoders:stringencoders'
     ],
 )
 
